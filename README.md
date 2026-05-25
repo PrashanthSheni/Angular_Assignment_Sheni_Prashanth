@@ -1,27 +1,58 @@
-# AngularAssessment
+# Angular Assessment Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+A clean, beginner-friendly Angular application built with standalone components. It features a Login page with form validation and a Dashboard that fetches and displays user data from a mock API.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before you begin, ensure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (which includes `npm`)
+- [Angular CLI](https://angular.dev/cli) (optional, but recommended)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Follow these instructions from cloning the repo to running it locally:
 
-## Build
+### 1. Clone the repository
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Open your terminal or command prompt and run:
 
-## Running unit tests
+```bash
+git clone https://github.com/PrashanthSheni/Angular_Assignment_Sheni_Prashanth.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Next, navigate into the cloned directory:
 
-## Running end-to-end tests
+```bash
+cd Angular_Assignment_Sheni_Prashanth
+```
+*(Note: If the folder name on your local machine is different, `cd` into your specific folder name).*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 2. Install dependencies
 
-## Further help
+Run the following command to install all the required Angular packages and dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+Start the Angular development server by running:
+
+```bash
+npm start
+```
+*(Alternatively, you can run `ng serve` if you have the Angular CLI installed globally).*
+
+### 4. Open in your Browser
+
+Once the server compiles successfully, navigate to `http://localhost:4200/` in your web browser. 
+
+The application will automatically redirect you to the Login page. Since this is a mock application, you can use **any dummy data** to log in, as long as it passes the basic form validations:
+- **Name**: Any name
+- **Email**: A valid email format (e.g., `test@example.com`)
+- **Password**: At least 6 characters (e.g., `123456`)
+
+## Screenshots
+
+You can view the visual output of the project in the [output.md](./output.md) file.
